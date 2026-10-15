@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート｜休肝日メーター</title>
+<link rel="icon" href="icon.png">
+<style>
+:root { --bg:#F4F6F8; --card:#FFFFFF; --text:#16202A; --sub:#4E5A66; --muted:#67727D; --border:#DCE2E8; --accent:#1D6A72; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",sans-serif; line-height:1.8; }
+main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+header { display:flex; align-items:center; gap:12px; margin-bottom:24px; }
+header img { width:48px; height:48px; border-radius:11px; }
+header span { font-weight:700; font-size:18px; }
+h1 { font-size:24px; margin:0 0 8px; }
+h2 { font-size:16px; margin:28px 0 6px; }
+p { margin:0 0 6px; color:var(--sub); font-size:15px; }
+ul { margin:0 0 6px; padding-left:1.4em; color:var(--sub); font-size:15px; }
+.card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px; margin-top:20px; }
+.links a { display:block; padding:12px 0; color:var(--accent); text-decoration:none; font-weight:600; border-top:1px solid var(--border); }
+.links a:first-child { border-top:none; }
+a { color:var(--accent); word-break:break-all; }
+footer { margin-top:40px; color:var(--muted); font-size:12px; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><span>休肝日メーター</span></header>
+<h1>休肝日メーター - 純アルコール量と減酒の記録</h1>
+<p>飲んだお酒の量を純アルコールのgで自動計算し、週の休肝日を増やしていくための記録アプリです。お酒をやめなくてもよいという前提で、飲んだ日を責めず、記録をリセットすることもありません。20歳以上の方を対象としています。</p>
+
+<h2>主な機能</h2>
+<ul>
+<li>32種類のプリセットから選ぶだけで、純アルコール量（容量×度数×0.8）を自動で計算します。杯数は0.5杯刻み、容量は1ml単位、度数は0.1%単位で入力できます</li>
+<li>「休肝日を増やす」「飲む量を減らす」の2つのモードと、週の目標（休肝日の日数、または週の上限g）</li>
+<li>翌朝の「きのうの記録をつけますか」のお知らせと、記録を忘れた日のまとめ入力</li>
+<li>「飲みたい」ときの3分のタイマーと、息を整えるガイド。飲み会の前に上限の杯数と帰る時刻を決める「今日の作戦」</li>
+<li>月のカレンダー、週と月のgの推移、先月との比較、浮いたお金</li>
+<li>節目のお祝いと、今月の休肝日を1枚にしたシェアカード（お酒の絵は使いません）</li>
+<li>ホーム画面・ロック画面のウィジェット</li>
+<li>バックアップの書き出しと読み込み、CSVの書き出し、アップデート前の自動コピー（3回ぶん）</li>
+</ul>
+
+<h2>よくある質問</h2>
+<p><strong>休肝日は、どう数えますか？</strong><br>その日に記録した純アルコール量が0gの日を休肝日として数えます。ノンアルコール（0.00%）は休肝日のままです。微アルコール（0.5%など）を飲んだ日は、量が少なくても「飲んだ日」として数えます。</p>
+<p><strong>1日の区切りは何時ですか？</strong><br>既定では朝5時です。夜中の1時に飲んだ分は、前の日の記録になります。区切りの時刻は設定で変えられます。</p>
+<p><strong>飲んだ日があると、記録はリセットされますか？</strong><br>されません。それまでの休肝日の数、浮いたお金、節目は、そのまま残ります。</p>
+<p><strong>週の目標を途中で変えたら、どうなりますか？</strong><br>週は月曜から日曜までです。週の途中で変えた目標は、翌週の月曜から使います。今週の目標は変わりません。</p>
+<p><strong>参考線（男性40g・女性20g）は何ですか？</strong><br>厚生労働省「健康に配慮した飲酒に関するガイドライン」が、生活習慣病のリスクを高める量として示している1日の純アルコール量です。個人の許容量を示すものではありません。表示しない設定もあります。</p>
+<p><strong>機種変更するとき、記録は引き継げますか？</strong><br>記録は、お使いのiPhoneの中にだけ保存しています。古いiPhoneで「設定」→「バックアップを書き出す」を押して、「ファイル」アプリやAirDropで新しいiPhoneへ送ってください。新しいiPhoneでアプリを入れて「はじめに」を済ませ、「設定」→「バックアップを読み込む」で、そのファイルを選びます。</p>
+<p><strong>アップデートのあと、記録が正しく表示されないときは、どうすればよいですか？</strong><br>アプリは、記録の形が変わるアップデートの前に、記録を自動でコピーしています（3回ぶん）。毎日の自動バックアップも7日ぶん残しています。「設定」→「以前の状態に戻す」から、戻したい時点を選んでください。</p>
+<p><strong>記録を表計算ソフトで見るには、どうすればよいですか？</strong><br>「設定」→「飲んだ記録をCSVで書き出す」「日ごとの記録をCSVで書き出す」で、ExcelやNumbersで開けるファイルを作れます。</p>
+<p><strong>広告を消すには、どうすればよいですか？</strong><br>「設定」→「広告なし＋応援」の画面で、内容と値段を確かめてから購入できます。買い切りで、月額の料金はかかりません。購入するとすぐに広告が消えます。機種変更したときや入れ直したときは、同じApple IDで「購入を復元」を押してください。</p>
+<p><strong>どんな広告が出ますか？</strong><br>ホーム画面の下の小さなバナーと、カレンダー・統計の1枠だけです。全画面の広告と動画の広告は出しません。お酒、ギャンブル、医薬品・サプリメント、出会い系などの広告は出さないように設定しています。気になる広告を見かけたら、「設定」→「この広告を報告」から知らせてください。</p>
+<p><strong>トラッキングの許可を断ると、使えない機能がありますか？</strong><br>ありません。機能はすべて同じです。広告が、興味に合わせたものではなくなるだけです。</p>
+<p><strong>このアプリは医療機器ですか？</strong><br>いいえ。本アプリは、病気の診断・治療・予防を目的とした医療機器ではありません。表示する純アルコール量や参考値は一般的な目安です。体調が気になる方や服薬中の方は、医師・薬剤師にご相談ください。飲酒の悩みについては、厚生労働省「<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000070789.html">依存症対策</a>」のページから、お住まいの地域の相談窓口を探せます。</p>
+<p><strong>年齢の制限はありますか？</strong><br>20歳以上の方を対象としています。お酒についての表現があるため、App Storeの年齢区分は18+です。20歳未満の方の飲酒、飲酒運転、妊娠中・授乳中の飲酒は禁止されています。</p>
+
+<div class="card links">
+<a href="privacy.html">プライバシーポリシー</a>
+<a href="mailto:amaneko.support+kyukanbimeter@gmail.com?subject=休肝日メーターについて">お問い合わせ（メール）</a>
+</div>
+<footer>© 休肝日メーター運営事務局</footer>
+</main>
+</body>
+</html>
